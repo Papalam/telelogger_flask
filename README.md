@@ -4,3 +4,5 @@
 В него разместить к ключа:
 TELEGRAM_TOKEN 
 AUTH_STRING
+
+....

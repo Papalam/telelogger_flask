@@ -2,7 +2,7 @@ from flask import request, jsonify
 from werkzeug.utils import redirect
 
 from services import Telegram
-from telebot import app
+from app import app
 
 
 @app.route('/', methods=['GET', 'POST'])

@@ -15,11 +15,15 @@ LOGGING = {
             'formatter': 'default',
             'filename': 'telebot_flask.log',
         },
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'console',
+        }
     },
     'loggers': {
         'telebot_flask': {
-            'handlers': ['file', ],
-            'level': logging.DEBUG
+            'handlers': ['console', ],
+            'level': logging.INFO
         },
     },
 }
